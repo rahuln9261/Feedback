@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form Input</title>
+    <style>
+body{
+    background-color: black;
+    color: #FFFF;
+}
+.lbl{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.lb{
+    margin-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="logo" align="left" width="50%">
+            <img src="https://csivitap.co.in/img/logo-light.png" alt="CSI LOGO" width="90" height="110">
+        </div>
+        <div class "Nav" align="right">
+            <span class="lb"><a href="https://csivitap.co.in/">Home</a></span>
+            <span class="lb"><a href="https://csivitap.co.in/about/">About Us</a></span>
+            <span class="lb"><a href="https://csivitap.co.in/contact/">Contact Us</a></span>
+        </div>
+    </div>
+<div class="part 1" align="center">
+    <h1>
+        Stored Data Is As Follows
+    </h1>
+    <p class="input">
+        <label class="lbl"> Name:</label> {{nm}} <br>
+        <label class="lbl">Email:</label> {{em}} <br>
+        <label class="lbl">Phone:</label> {{ph}} <br>
+        <label class="lbl">Team:</label> {{tm}} <br>
+        <label class="lbl">Feedback:</label> {{fb}}<br>
+    
+    </p>
+</div>
+<div align="center">
+    <h1>Thank You {{nm}},</h1>
+</div>
+<hr>
+<p class="input" align="center">
+    We Have Recieved Your Response And We Will Be Really Happy to look upon it
+</p>
+    
+</body>
+</html>

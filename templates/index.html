@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page </title>
+    <style>
+        .t{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+    background-color: black;
+    color: #FFFF;
+}
+.frm{
+    border-radius: 12px;
+    width: 50%;
+    height: 50px;
+    background: transparent;
+    border-color: #FFFF;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+.lbl{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.lb{
+    background: transparent;
+    border-color: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 5px;
+}
+.sb{
+    background: transparent;
+    border-color: white;
+    color: white;
+    height: 60px;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.Nav{
+    margin-left: 10px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="logo" align="left" width="50%">
+            <img src="https://csivitap.co.in/img/logo-light.png" alt="CSI LOGO" width="90" height="110">
+        </div>
+        <div class "Nav" align="right">
+            <span class="lb"><a href="https://csivitap.co.in/">Home</a></span>
+            <span class="lb"><a href="https://csivitap.co.in/about/">About Us</a></span>
+            <span class="lb"><a href="https://csivitap.co.in/contact/">Contact Us</a></span>
+        </div>
+    </div>
+    <div class="t">
+        <h1>Welcome to the Feedback Page</h1>
+        <h2>
+            We Are Delighted To Have Your Valuable Response
+        </h2>
+    </div>
+    <div class="f1">
+        <form method="POST">
+            <label class="lbl">Name:</label><br>
+            <input class="frm" id="name" type="text" name="name"><br>
+            <label class="lbl" for="email">Email:</label><br>
+            <input type="email" id="email" name="email" class="frm"><br>
+            <label class="lbl" for="Phone">Phone Number:</label><br>
+            <input type="text" id="Phone" name="Phone" class="frm" maxlength="10"><br>
+            <label class="lbl">Your Team Name: </label><br>
+            <input type="text" class="frm" id="team" name="team"><br>
+            <label for="Feedback" class="lbl">Feedback:</label><br>
+            <input type="text" id="feedback" name="feedback" class="frm" style="height: 100px;"> <br>
+            
+            <br> <input class="sb" type="submit" value="Lets Go">
+        </div>
+        </form>
+</body>
+</html>
